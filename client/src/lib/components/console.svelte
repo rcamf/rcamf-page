@@ -3,7 +3,7 @@
 	import { cn, System, getPath, promptRender } from '$lib/utils';
 	import { type HistoryElement, type Message } from '$types';
 	import { superForm, type Infer, type SuperValidated } from 'sveltekit-superforms';
-	import type { executeSchema } from '../../routes/os/execute-command-schema';
+	import type { executeSchema } from '../../routes/execute-command-schema';
 	import Line from './line.svelte';
 	import RenderElement from './render-element.svelte';
 	import SuperDebug from 'sveltekit-superforms';
